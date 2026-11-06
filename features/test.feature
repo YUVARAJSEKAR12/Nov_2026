@@ -39,3 +39,17 @@ Feature: Login page Validation
             | Admin1   | pass1    |
             | Admin2   | pass2    |
             | Admin3   | pass3    |
+
+
+            @tag1
+    Scenario Outline: LoginPages validations
+        When Enter the username "<username>" and password "<password>"
+        And Click the login button
+        Then Validate the HomePage
+        Examples:
+            | username | password |
+            | Admin1   | pass1    |
+            | Admin2   | pass2    |
+            | Admin3   | pass3    |
+
+            
