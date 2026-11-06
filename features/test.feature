@@ -39,3 +39,9 @@ Feature: Login page Validation
             | Admin1   | pass1    |
             | Admin2   | pass2    |
             | Admin3   | pass3    |
+
+        
+    Scenario: Validate the invalid username and password
+        When Enter the username "Aiite1212" and password "Asdife12121fi"
+        And Click the login button
+        Then Validate the HomePage       
