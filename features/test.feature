@@ -28,38 +28,5 @@ Feature: Login page Validation
             | Admin2   | pass2    |
             | Admin3   | pass3    |
 
-             @tag2
-    Scenario: Validate the valid username and password
-        When Enter the username "Aiite" and password "Asdifefi"
-        And Click the login button
-        Then Validate the HomePage
 
-   
-    Scenario: Validate the invalid username and password
-        When Enter the username "Aiite1212" and password "Asdife12121fi"
-        And Click the login button
-        Then Validate the HomePage
-
-          @tag2
-    Scenario: Validate the valid username and password
-        When Enter the username "Aiite" and password "Asdifefi"
-        And Click the login button
-        Then Validate the HomePage
-
-   
-    Scenario: Validate the invalid username and password
-        When Enter the username "Aiite1212" and password "Asdife12121fi"
-        And Click the login button
-        Then Validate the HomePage
-
-          @tag2
-    Scenario: Validate the valid username and password
-        When Enter the username "Aiite" and password "Asdifefi"
-        And Click the login button
-        Then Validate the HomePage
-
-   
-    Scenario: Validate the invalid username and password
-        When Enter the username "Aiite1212" and password "Asdife12121fi"
-        And Click the login button
-        Then Validate the HomePage
+ 
